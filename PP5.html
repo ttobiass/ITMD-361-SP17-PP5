@@ -36,8 +36,8 @@
 		<h2 id="textoutput" class="center">Show results here</h2>
 	</div>
 	<script type="text/javascript">
-		document.getElementById("entryinput").addEventListener("click", alert);
-		function alert(){
+		document.getElementById("entryinput").addEventListener("click", alertButton);
+		function alertButton(){
 			var message = document.getElementById('entryinput').value;
 			alert("Tiffini Tobiasson: " + message);
 			document.getElementById('textoutput').innerHTML = message;
